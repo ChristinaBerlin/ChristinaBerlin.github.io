@@ -1,0 +1,82 @@
+body{
+	background:url("../images/two_hats_no_text.png");
+	background-size: cover;
+	color: #1F0F00;
+	line-height: 1;
+}
+h1{
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 52px;
+	color: #5A5047;
+}
+hr{
+	width: 200px;
+	border: dotted;
+	border-width: 1px;
+	border-color: #483D33;
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+}
+#second{
+	width: 400px;
+}
+p{
+	text-align: center;
+	text-transform: italic;
+	margin-top: 2px;
+	color: ##5A5047;
+}
+#slogan{
+	font-style: italic;
+	font-size: 50px;
+	color: #5A5047;
+}
+#introduction{
+	font-size: 40px;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: serif;
+	color: #E5E0D9;
+	border: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: square;
+	text-align: center;
+}
+ul li{
+	border: 1px solid #E5E0D9;
+	color: #E5E0D9;
+	display: inline;
+	font-family: serif;
+	text-transform: capitalize;
+	font-size: 30px;
+	list-style-position: inside;
+	padding: 3px 3px 3px 3px;
+}
+li:hover{
+	color: #FFFF67;
+}
+a{
+	text-decoration: none;
+	font-family: Helvetica,sans-serif;
+	color: #99FFCC;
+	font-size: 22px;
+	font-weight: lighter;
+	text-align: center;
+	line-height: 100%;
+	border-radius: 1px;
+}
+a:hover{
+	color: #FFFF67;
+}
+footer{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+
+}
