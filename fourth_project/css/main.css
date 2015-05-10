@@ -1,0 +1,104 @@
+@import url (./fonts/Napa.otf);
+body{
+	background:url("../images/two_hats_no_text.png");
+	background-size: cover;
+	color: #1F0F00;
+	line-height: 1em;
+}
+h1{
+	text-align: center;
+	line-height: 0em;
+	font-family: 'Herr Von Muellerhoff', sans-serif, cursive;
+	font-size: 110px;
+	color: #5A5047;
+	padding: 2px;
+}
+hr{
+	width: 200px;
+	border: dotted;
+	border-width: 1px;
+	border-color: #483D33;
+	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
+}
+strong{
+	text-transform: italic;
+	
+}
+#second{
+	width: 400px;
+}
+p, #introduction, ul, li{
+	font-family: 'Cantarell', sans-serif;
+	font-weight: thinner;
+	text-align: center;
+	text-transform: italic;
+	margin-top: 2px;
+	color: #5A5047;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1em;
+}
+
+#slogan{
+	font-family: Napa;
+	font-weight: thin;
+	font-style: italic;
+	font-size: 50px;
+	color: #5A5047;
+	margin: 0.5em;
+}
+#introduction{
+	font-size: 36px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	border: none;
+	line-height: 1.5em;
+	opacity: 0.7;
+}
+ul{
+	text-align: center;
+	list-style-type: square;
+}
+ul li{
+	color: #E5E0D9;
+	display: inline-block;
+	text-align: left;
+	text-transform: capitalize;
+	font-size: 30px;
+	list-style-position: inside;
+	list-style-type: square;
+	padding-top: 1px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 1px;
+	line-height: 0px;
+}
+li:hover{
+	color: #FFFF67;
+}
+a{
+	text-decoration: none;
+	color: #99FFCC;
+	font-size: 18px;
+	font-weight: lighter;
+	text-align: center;
+	font-family: 'Cantarell', sans-serif;
+	font-weight: thinner;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	border-color: #99FFCC;
+	padding: 3px;
+
+}
+a:hover{
+	color: #FFFF67;
+}
+footer{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+
+}
