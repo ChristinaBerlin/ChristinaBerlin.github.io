@@ -1,0 +1,227 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 100%;
+	background-color: #fff;
+	font-family: Karla, Helvetica, sans-serif;
+	font-weight: 400;
+}
+.wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+header {
+	width: 90%;
+	margin: 0, auto;
+}
+header img {
+	float: left;
+	width: 10%;
+	margin: 0 auto 0 4em;
+	padding: .5em 0;
+}
+
+h1 {
+	float: left;
+	width: 30%;
+	font-size: 3em;
+	color: #dddddd;
+	text-align: left;
+	font-weight: 400;
+	line-height: 2em;
+	margin: 0 auto .3em;
+}
+
+nav {
+	float: right;
+	margin-top: 1em;
+}
+
+nav a {
+	text-align: right;
+	text-decoration: none;
+	width: 15%;
+	text-transform: none;
+	margin: 1em 0 0 2em;
+	padding: .5em;
+	color: #dddddd;
+}
+
+nav a:hover{
+	background-color: yellow;
+	color: #dddddd;
+
+}
+
+nav a:active{
+	background-color: yellow;
+	color: #dddddd;
+}
+
+.illustration {
+	clear: both;
+	width: 90%;
+	margin: .5em  auto 0 auto;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 10em;
+	padding: 1em auto;
+	background-color: yellow;
+}
+
+.illustration a {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.illustration:hover{
+	background-color: #98FF98;
+
+}
+
+.webdesign { 
+	width: 90%;
+	margin: 0  auto .3em auto;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 10em;
+	padding: 1em auto;
+	background-color: #dddddd;
+	color: #fff;
+}
+
+.webdesign:hover{
+	background-color: #98FFBA;
+	cursor: pointer;
+
+}
+
+footer {
+	text-align: center;
+	width: 90%;
+	margin: .3em  auto;
+	padding: 1em 0;
+	color: #dddddd;
+}
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+body {
+	font-size: 14px;
+}
+.wrapper {
+	width: auto;
+
+}
+
+h1 {
+	width: auto;
+	font-size: 2em;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+nav {
+	float: right;
+	padding: 1em 2em;
+	width: auto;	
+}
+
+nav a {
+	margin: .3em .3 0 2em;
+	padding: 1.5em 2em;
+}
+
+.illustration {
+	width: auto;
+	margin: 0  .6em;
+	font-size: 8.5em;
+	padding: .1em;
+}
+
+.webdesign { 
+	width: auto;
+	margin: 0  .6em;
+	font-size: 8.5em;
+	padding: .1em;
+}
+
+footer {
+	width: auto;
+}
+
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:768px){
+
+body {
+	font-size: 12px;
+}
+header {
+	width: auto;
+}
+
+header img {
+	float: none;
+	display: block;
+	margin: 0 45%;
+	width: 15%;
+
+}
+
+h1 {
+	float: none;
+	font-size: 2em;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 2em;
+}
+nav {
+	float: none;
+	text-align: center;
+	margin-top: 1em;
+	display: block;
+	padding: 1em;
+}
+nav a {
+	text-align: center;
+	text-decoration: none;
+	width: auto;
+	margin: .2em .8em;
+	padding: .5em 2em;
+	display: inline-block;
+}
+nav a:hover{
+	max-width: 100%;
+	padding: .5em 2em;
+
+
+}
+
+.illustration {
+	width: auto;
+	margin: .3em  .6em 0 ;
+	font-size: 5em;
+	padding: .5em .1em;
+}
+
+.webdesign { 
+	width: auto;
+	margin: 0  .6em;
+	font-size: 5em;
+	padding: .5em .1em;
+}
+
+}

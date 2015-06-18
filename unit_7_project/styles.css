@@ -1,24 +1,24 @@
-body{
+body {
 	font-size: 100%;
 	background-color: #eeeeee;
 	font-family: Helvetica, sans-serif;
 	font-weight: 400;
 }
-header{
+header {
 	width: 90%;
 	background-color: #dddddd;
 	margin: .9em auto;
 	padding: 1em 0;
 }
-nav{
+nav { 
 	width: 90%;
 	margin: .3em  auto;
 	text-align: center;
 	padding: .5em 0;
 	background-color: #dddddd;
 	color: #fff;
-
 }
+
 h1{
 	font-size: 2em;
 	color: #fff;
